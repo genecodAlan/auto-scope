@@ -2,9 +2,9 @@
 
 A comprehensive Python application for automated microscope control featuring real-time organism tracking, visual servoing, intelligent motor control, and advanced image stitching. Built with ESP8266/Arduino stepper motor control and computer vision-based organism tracking.
 
-## 🚀 Major Features
+## NEW Major Features (scroll down for photos)
 
-### 🎯 Visual Servoing & Organism Tracking
+### Visual & Organism Tracking
 - **Real-time Organism Detection**: Advanced computer vision using background subtraction and contour analysis
 - **Click-to-Track Interface**: Simply click on any moving organism to automatically track it
 - **Intelligent Motor Control**: Stage automatically moves to keep tracked organisms centered in view
@@ -13,7 +13,7 @@ A comprehensive Python application for automated microscope control featuring re
 - **Independent Axis Control**: Only moves axes with significant error (>30px threshold)
 - **Thread-Safe Operation**: Robust threading prevents GUI conflicts and crashes
 
-### 🔧 Advanced Motor Control
+### Advanced Motor Control
 - **Configurable Speed & Step Size**: Real-time adjustment of motor parameters
 - **Preset Movement Profiles**: Fine, Normal, and Fast movement presets
 - **Boundary Protection**: Prevents movement beyond set limits when home is established
@@ -21,28 +21,28 @@ A comprehensive Python application for automated microscope control featuring re
 - **Emergency Stop**: Immediate motor stop on tracking loss or manual reset
 - **Position Tracking**: Real-time absolute position display with coordinate system
 
-### 📸 Enhanced Image Processing
+### Enhanced Image Processing
 - **Live Image Stitching**: Smooth blending algorithm for seamless panoramic images
 - **Automated Lawnmower Scanning**: Configurable grid patterns for systematic area coverage
 - **Crop Region Management**: Separate regions for stitching vs. tracking operations
 - **Real-time Preview**: Live preview of stitched results during capture
 - **Multiple View Modes**: Small tile view and full-window camera display options
 
-### 🖥️ Improved User Interface
+### Improved User Interface
 - **Dual Camera Views**: Small tile view for monitoring + full-window view for detailed work
 - **Visual Feedback**: Frame center crosshairs, error displays, and status overlays
 - **Start/Stop Toggle**: Easy restart of tracking system without application restart
 - **Real-time Status**: Live motor status, position tracking, and system feedback
 - **Keyboard Shortcuts**: Arrow keys for manual control, hotkeys for tracking functions
 
-## 🛠️ Hardware Requirements
+## Hardware Requirements
 
 - **Camera**: USB microscope (configurable camera index, default: 1)
 - **Arduino**: ESP8266 or Arduino Uno connected via USB (COM3, 115200 baud)
 - **Motors**: XY motorized stage with stepper motor control
 - **Stage**: Microscope stage with Arduino-controlled movement system
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository**:
 ```bash
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 3. **Program Arduino**: Upload the provided Arduino sketch to your ESP8266/Arduino
 4. **Connect Hardware**: Ensure Arduino is connected to COM3 and motors are wired correctly
 
-## 🎮 Usage Guide
+##  Usage Guide
 
 ### Quick Start
 ```bash
@@ -129,7 +129,7 @@ PIXELS_PER_STEP_Y = 2.0    # Calibration constant for Y-axis
 - **Jump Detection**: Maximum 100-pixel movement between frames
 - **Trail Visualization**: 50-frame history with fade effect
 
-## 🎯 Key Improvements & Features
+## Key Improvements & Features
 
 ### Visual Servoing System
 - **Error-Based Control**: Computes pixel error and converts to motor steps
@@ -150,7 +150,7 @@ PIXELS_PER_STEP_Y = 2.0    # Calibration constant for Y-axis
 - **Keyboard Controls**: Intuitive hotkeys for all major functions
 - **Status Messages**: Clear feedback for all operations and error conditions
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 auto-scope/
@@ -236,7 +236,7 @@ PIXELS_PER_STEP_X = 2.0  # Increase if stage moves too little
 PIXELS_PER_STEP_Y = 2.0  # Decrease if stage moves too much
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -244,21 +244,21 @@ PIXELS_PER_STEP_Y = 2.0  # Decrease if stage moves too much
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - OpenCV community for computer vision algorithms
 - Arduino community for motor control examples
 - Python scientific computing ecosystem (NumPy, PIL, Tkinter)
 
-## 📞 Support
+## Support
 
-For questions, issues, or contributions, please open an issue on GitHub or contact the development team.
+For questions, issues, or contributions, please open an issue on GitHub or contact Alan (me).
 
 ---
 
-**Auto-Scope** - Bringing automation and intelligence to microscopy research.
+**Auto-Scope** - Merging automation and AI with microscopy.
 
