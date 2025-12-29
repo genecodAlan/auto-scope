@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+captured_images/*.png
+images/*.png
+images/*.jpg
+*.png
+*.jpg
+
+# Keep directory structure
+!captured_images/.gitkeep
+!images/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
