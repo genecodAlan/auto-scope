@@ -54,11 +54,13 @@ python micro_camera_scope/Arrows_Key.py
 
 ![image of grid stitch prior to processing](demo_images/assembled_grid_output.jpg)
 
+Florida mosquito slide prep 100X magnification
+
 ### Manual Hand Scan
 
 ![stitched](demo_images/stitched_microscope_1754311658.png)
 
-
+Florida mosquito slide prep 100X magnification stitched with ORB and BFM matcher
 
 ### Tracking 
 
