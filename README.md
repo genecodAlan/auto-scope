@@ -1,10 +1,9 @@
 
-# auto-scope
-ESP8266 and stepper motor controlled microscope baseplate. Python based software with tkinter GUI for features such as image stitching, hematology classification and live organism tracking with PID. 
+ 
 =======
 # Microscope Image Stitcher with Arduino Control
 
-A Python application for automated microscope image stitching with Arduino-controlled stage movement.
+A Python application for automated microscope image stitching with Arduino-controlled stage movement. ESP8266 and stepper motor-controlled microscope baseplate. Python-based software with a tkinter GUI for features such as image stitching, hematology classification, and live organism tracking with PID.
 
 ## Features
 
