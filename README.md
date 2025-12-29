@@ -52,12 +52,38 @@ python micro_camera_scope/Arrows_Key.py
 - **Number of rows**: Vertical scan rows (2-10)
 - **Step delay**: Time between movements in seconds (0.5-5.0)
 
+![image of grid stitch prior to processing](demo_images/assembled_grid_output.jpg)
+
+### Manual Hand Scan
+
+![stitched](demo_images/stitched_microscope_1754311658.png)
+
+
+
+### Tracking 
+
+- **New Tracking Features**: Enabled by starting organism tracking in the UI
+- **Selection**: Select moving objects or organisms from your FOV simply by clicking
+- **Movement**: Stepper motors will automatically move to center the organism, so you never lose track of them.
+
+![image of tracking](demo_images/Tracking_picture.png)
+
+
+### Tkinter UI
+
+![UI](demo_images/UI_Pic.png)
+
+
+
+
+
+
 ## Project Structure
 
 ```
 .
 ├── micro_camera_scope/
-│   └── Arrows_Key.py          # Main application (run this)
+│   └── main_control.py          # Main application (run this)
 ├── captured_images/            # Saved frame captures
 ├── images/                     # Stitched output images
 ├── requirements.txt            # Python dependencies
