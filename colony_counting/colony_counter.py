@@ -86,7 +86,7 @@ def mouse_callback(event, x, y, flags, param):
         threading.Thread(target=handle_keys, daemon=True).start()
 
 
-image = cv2.imread("Colonies/Col2.jpg")
+image = cv2.imread("colony_counting/BF_Handwash.jpg")
 if image is None:
     raise FileNotFoundError("Could not load image. Make sure '*file*.jpg' exists in the same directory.")
 
