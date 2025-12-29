@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # auto-scope
 ESP8266 and stepper motor controlled microscope baseplate. Python based software with tkinter GUI for features such as image stitching, hematology classification and live organism tracking with PID. 
 =======
@@ -75,4 +75,4 @@ python micro_camera_scope/Arrows_Key.py
 - **Camera not found**: Check camera index (currently set to 1)
 - **Arduino connection failed**: Verify COM port and baud rate (115200)
 - **Movement limits**: Set home position before scanning to enable boundary checking
->>>>>>> a89cc45 (Add: All files from micro_camera_scope and colony_counter)
+
